@@ -235,3 +235,195 @@ hr {
     margin-bottom: 30px;
     border-radius: 20px;
 }
+
+/* media query */
+@media (max-width:540px) {
+    .navbar {
+        flex-direction: column;
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    .nav-right-part {
+
+        flex-direction: column;
+
+    }
+
+    .nav-left-part {
+        margin-left: 20px;
+    }
+
+    .nav-right-part ul li {
+        display: block;
+
+    }
+
+    .nav-right-part {
+        margin: 0px auto;
+    }
+
+    .top-players {
+
+
+        grid-template-columns: repeat(1, 1fr);
+
+
+    }
+
+
+
+    .top-blogs {
+
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 40px;
+        position: absolute;
+        left: 55px;
+        top: 1010px;
+
+
+    }
+
+    .blog {
+        flex-direction: column;
+
+    }
+
+    .player-blog-part {
+        background-color: #837b7b1f;
+        height: 1860px;
+        width: 87%;
+        margin: 0px auto;
+        border-radius: 20px;
+    }
+
+    .blog-description {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .courses {
+        flex-direction: column;
+    }
+
+    .icon {
+        flex-direction: column;
+    }
+
+    .course {
+        margin-top: 70px;
+    }
+
+    .course img {
+        width: 100%;
+    }
+
+    .clock {
+        text-align: center;
+    }
+
+    .latest-course h1 {
+
+        margin-bottom: -20px;
+
+    }
+
+
+
+}
+
+@media (min-width:541px) and (max-width:1299px) {
+    .nav-left-part {
+
+        justify-content: center;
+        margin-left: -30px;
+
+
+    }
+
+    .navbar {
+        flex-direction: column;
+        width: 100%;
+        margin: 0px auto;
+    }
+
+
+    .nav-right-part {
+
+        flex-direction: column;
+
+    }
+
+    .nav-right-part ul li {
+        display: block;
+
+    }
+
+    .nav-right-part {
+        margin: 0 auto;
+    }
+
+    .top-players {
+
+        grid-template-columns: repeat(2, 1fr);
+
+
+    }
+
+    .top-blogs {
+
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+        position: absolute;
+        left: 135px;
+        top: 800px;
+        width: 90%;
+        margin: 0 auto;
+
+
+    }
+
+    .blog {
+        flex-direction: column;
+
+
+    }
+
+    .player-blog-part {
+        background-color: #837b7b1f;
+        height: 1020px;
+        width: 87%;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+
+    .blog-description {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+
+    .icon {
+        flex-direction: column;
+    }
+
+    .course img {
+        width: 100%;
+    }
+
+    .course {
+        margin-top: 70px;
+        margin-left: -10px;
+        margin-right: 25px;
+    }
+
+    .clock {
+        text-align: center;
+    }
+
+    .latest-course h1 {
+
+        margin-bottom: -20px;
+
+    }
+}
